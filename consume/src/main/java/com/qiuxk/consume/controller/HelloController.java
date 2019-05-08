@@ -26,6 +26,6 @@ public class HelloController {
 
     @RequestMapping(value = "hiError")
     public  String hiError(String name){
-        return "hiError "+ name;
+        return "hiError "+ name;c
     }
 }
