@@ -2,7 +2,8 @@ eureka:
   client:
     serviceUrl:
       #向eureka注册中心注册地址
-      #问题？  是否可以有 多个注册中心 如果有 该如何配置  很多服务 既是生产者  也是消费者
+      #问题？  是否可以有  该如何配置  很多服务 既是生产者  也是消费者
+      # defaultZone: http://localhost:8761/eureka/,http://127.0.0.1:8762/eureka/ 配置多个注册中心
       defaultZone: http://localhost:8761/eureka/
 # 客户端启动的端口
 server:
